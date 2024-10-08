@@ -14,6 +14,9 @@
     color: rgb(87, 173, 44);
     font-weight: 800;
 }
+.link:hover{
+  color: #3b8c3f;
+}
 
 .ai {
     margin-top: 10px;
@@ -82,9 +85,10 @@
   }
   
   .container {
-    width: 50%;
+    width: 60%;
     height: 80%;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 5%;
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #ccc;
@@ -102,7 +106,7 @@ input[type="password"] {
 
 .login2 {
   width: 100%;
-  padding: 10px;
+  padding: 2%;
   background-color: #4CAF50;
   color: #ffffff;
   border: none;
@@ -111,4 +115,40 @@ input[type="password"] {
 }
 .login2:hover {
   background-color: #45a049;
+}
+
+.back{
+  display: block;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(87, 173, 44);
+  font-weight: 800; 
+}
+.back:hover{
+  color: #3b8c3f;
+}
+
+.create{
+  display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(87, 173, 44);
+    font-weight: 800;
+}
+.create:hover{
+  color: #3b8c3f;
+}
+
+.createcontainer{
+  width: 70%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
