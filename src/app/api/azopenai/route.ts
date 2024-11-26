@@ -5,6 +5,7 @@ import { getAzOpenAIData } from '../../models/azopenaiApplicationService';
 // GETリクエストを処理する関数
 export const GET = async (req: Request, userId: string, ) => {
   try {
+    console.log("imakoko")
     const url = new URL(req.url);
     const message = url.searchParams.get(`message`);
     if (!message) {
